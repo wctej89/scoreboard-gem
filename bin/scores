@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'scores'
+
+score = Scores::Scrape.new
+score.get_scores(ARGV[0].downcase)
